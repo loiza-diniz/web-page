@@ -21,19 +21,14 @@ body {
 }
 
 
-button {
+#botao {
     background: transparent;
     color: var(--cor-secundaria);
     border: 2px solid var(--cor-secundaria);
-    padding: 10px 20px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-button:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
-}
 
 header {
     text-align: center;
@@ -44,7 +39,7 @@ h1 {
     font-size: 3rem;
     color: var(--cor-primaria);
     font-weight: bold;
-    color: #571319;
+    color: #fd5967;
 }
 
 #cabecalho {
@@ -72,28 +67,9 @@ main {
 }
 
 .detalhes ul li {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
-
-
-.sobre button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: 2px solid var(--cor-secundaria);
-    background: transparent;
-    color: var(--cor-secundaria);
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: var(--border-radius);
-    transition: 0.3s;
-}
-
-.sobre button:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
-}
 
 .apresentacao {
     background: var(--cor-secundaria);
